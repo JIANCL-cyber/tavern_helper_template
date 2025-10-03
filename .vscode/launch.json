@@ -15,7 +15,12 @@
         "webpack://tavern_helper_template/*": "${workspaceFolder}/*",
       },
       "skipFiles": [
+<<<<<<< HEAD
         "**/jquery*.min.js"
+=======
+        "**/jquery*.min.js",
+        "**/node_modules/**"
+>>>>>>> 330d6cbc9cfe1ddada8661e1ae1b5f80a2870451
       ],
     },
     {
@@ -34,7 +39,12 @@
         "webpack://tavern_helper_template/*": "${workspaceFolder}/*",
       },
       "skipFiles": [
+<<<<<<< HEAD
         "**/jquery*.min.js"
+=======
+        "**/jquery*.min.js",
+        "**/node_modules/**"
+>>>>>>> 330d6cbc9cfe1ddada8661e1ae1b5f80a2870451
       ],
     },
     {
@@ -51,7 +61,12 @@
         "webpack://tavern_helper_template/*": "${workspaceFolder}/*",
       },
       "skipFiles": [
+<<<<<<< HEAD
         "**/jquery*.min.js"
+=======
+        "**/jquery*.min.js",
+        "**/node_modules/**"
+>>>>>>> 330d6cbc9cfe1ddada8661e1ae1b5f80a2870451
       ],
     },
     {
@@ -68,7 +83,12 @@
         "webpack://tavern_helper_template/*": "${workspaceFolder}/*",
       },
       "skipFiles": [
+<<<<<<< HEAD
         "**/jquery*.min.js"
+=======
+        "**/jquery*.min.js",
+        "**/node_modules/**"
+>>>>>>> 330d6cbc9cfe1ddada8661e1ae1b5f80a2870451
       ],
     }
   ]
