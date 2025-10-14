@@ -5,6 +5,11 @@
       "name": "编译代码并调试酒馆网页 (Chrome)",
       "type": "chrome",
       "request": "launch",
+<<<<<<< HEAD
+=======
+      "preLaunchTask": "开始任务",
+      "postDebugTask": "结束任务",
+>>>>>>> e9655e9c774526d6343a5740849c54a015536e61
       "url": "http://localhost:6622",
       "disableNetworkCache": true,
       "internalConsoleOptions": "openOnSessionStart",
@@ -15,7 +20,12 @@
         "webpack://tavern_helper_template/*": "${workspaceFolder}/*",
       },
       "skipFiles": [
+<<<<<<< HEAD
         "**/jquery*.min.js"
+=======
+        "**/jquery*.min.js",
+        "**/node_modules/**"
+>>>>>>> e9655e9c774526d6343a5740849c54a015536e61
       ],
     },
     {
@@ -34,7 +44,12 @@
         "webpack://tavern_helper_template/*": "${workspaceFolder}/*",
       },
       "skipFiles": [
+<<<<<<< HEAD
         "**/jquery*.min.js"
+=======
+        "**/jquery*.min.js",
+        "**/node_modules/**"
+>>>>>>> e9655e9c774526d6343a5740849c54a015536e61
       ],
     },
     {
@@ -51,7 +66,12 @@
         "webpack://tavern_helper_template/*": "${workspaceFolder}/*",
       },
       "skipFiles": [
+<<<<<<< HEAD
         "**/jquery*.min.js"
+=======
+        "**/jquery*.min.js",
+        "**/node_modules/**"
+>>>>>>> e9655e9c774526d6343a5740849c54a015536e61
       ],
     },
     {
@@ -68,7 +88,12 @@
         "webpack://tavern_helper_template/*": "${workspaceFolder}/*",
       },
       "skipFiles": [
+<<<<<<< HEAD
         "**/jquery*.min.js"
+=======
+        "**/jquery*.min.js",
+        "**/node_modules/**"
+>>>>>>> e9655e9c774526d6343a5740849c54a015536e61
       ],
     }
   ]
