@@ -5,9 +5,17 @@
       "name": "编译代码并调试酒馆网页 (Chrome)",
       "type": "chrome",
       "request": "launch",
+<<<<<<< HEAD
       "url": "http://localhost:6622",
       "disableNetworkCache": true,
       "internalConsoleOptions": "openOnSessionStart",
+=======
+      "preLaunchTask": "开始任务",
+      "postDebugTask": "结束任务",
+      "url": "http://localhost:8000",
+      "disableNetworkCache": true,
+      "internalConsoleOptions": "neverOpen",
+>>>>>>> 144270117e5c2d7250e461da58e402f15c661485
       "cwd": "${workspaceFolder}",
       "timeout": 100000,
       "sourceMapPathOverrides": {
@@ -15,7 +23,12 @@
         "webpack://tavern_helper_template/*": "${workspaceFolder}/*",
       },
       "skipFiles": [
+<<<<<<< HEAD
         "**/jquery*.min.js"
+=======
+        "**/jquery*.min.js",
+        "**/node_modules/**"
+>>>>>>> 144270117e5c2d7250e461da58e402f15c661485
       ],
     },
     {
@@ -26,7 +39,11 @@
       "postDebugTask": "结束任务",
       "url": "http://localhost:8000",
       "disableNetworkCache": true,
+<<<<<<< HEAD
       "internalConsoleOptions": "openOnSessionStart",
+=======
+      "internalConsoleOptions": "neverOpen",
+>>>>>>> 144270117e5c2d7250e461da58e402f15c661485
       "cwd": "${workspaceFolder}",
       "timeout": 100000,
       "sourceMapPathOverrides": {
@@ -34,7 +51,12 @@
         "webpack://tavern_helper_template/*": "${workspaceFolder}/*",
       },
       "skipFiles": [
+<<<<<<< HEAD
         "**/jquery*.min.js"
+=======
+        "**/jquery*.min.js",
+        "**/node_modules/**"
+>>>>>>> 144270117e5c2d7250e461da58e402f15c661485
       ],
     },
     {
@@ -43,7 +65,11 @@
       "request": "launch",
       "url": "http://localhost:8000",
       "disableNetworkCache": true,
+<<<<<<< HEAD
       "internalConsoleOptions": "openOnSessionStart",
+=======
+      "internalConsoleOptions": "neverOpen",
+>>>>>>> 144270117e5c2d7250e461da58e402f15c661485
       "cwd": "${workspaceFolder}",
       "timeout": 100000,
       "sourceMapPathOverrides": {
@@ -51,7 +77,12 @@
         "webpack://tavern_helper_template/*": "${workspaceFolder}/*",
       },
       "skipFiles": [
+<<<<<<< HEAD
         "**/jquery*.min.js"
+=======
+        "**/jquery*.min.js",
+        "**/node_modules/**"
+>>>>>>> 144270117e5c2d7250e461da58e402f15c661485
       ],
     },
     {
@@ -60,7 +91,11 @@
       "request": "launch",
       "url": "http://localhost:8000",
       "disableNetworkCache": true,
+<<<<<<< HEAD
       "internalConsoleOptions": "openOnSessionStart",
+=======
+      "internalConsoleOptions": "neverOpen",
+>>>>>>> 144270117e5c2d7250e461da58e402f15c661485
       "cwd": "${workspaceFolder}",
       "timeout": 100000,
       "sourceMapPathOverrides": {
@@ -68,7 +103,12 @@
         "webpack://tavern_helper_template/*": "${workspaceFolder}/*",
       },
       "skipFiles": [
+<<<<<<< HEAD
         "**/jquery*.min.js"
+=======
+        "**/jquery*.min.js",
+        "**/node_modules/**"
+>>>>>>> 144270117e5c2d7250e461da58e402f15c661485
       ],
     }
   ]
